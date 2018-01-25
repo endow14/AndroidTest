@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".doit.mission_5.Doit_mission_5_Activity"
+        <activity android:name=".doit.mission_6.Mission_6_Main_Activity"
                   android:launchMode= "singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -27,7 +27,13 @@
         <activity android:name=".Test_3_Parcelable_Sub"/>
 
         <activity
-            android:name=".doit.mission_5.Doit_mission_5_Sub_Activity"/>
+            android:name=".doit.mission_5.Mission_5_Sub_Activity"/>
+
+        <activity android:name=".doit.mission_6.Mission_6_Menu_Activity"/>
+        <activity android:name=".doit.mission_6.Mission_6_Menu_1_Activity"/>
+        <activity android:name=".doit.mission_6.Mission_6_Menu_2_Activity"/>
+        <activity android:name=".doit.mission_6.Mission_6_Menu_3_Activity"/>
+
 
         <service
             android:name=".Test_3_SampleService"
