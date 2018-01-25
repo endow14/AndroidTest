@@ -13,7 +13,7 @@ import com.endow.booktest.R;
  * Created by endow14 on 2018. 1. 25..
  */
 
-public class Doit_mission_5_Activity extends AppCompatActivity {
+public class Mission_5_Main_Activity extends AppCompatActivity {
 
     public static int REQUST_TEST = 200;
 
@@ -37,7 +37,7 @@ public class Doit_mission_5_Activity extends AppCompatActivity {
     }
 
     public void onTest(View view){
-        Intent intent = new Intent(this, Doit_mission_5_Sub_Activity.class);
+        Intent intent = new Intent(this, Mission_5_Sub_Activity.class);
         startActivityForResult(intent, REQUST_TEST);
     }
 }

@@ -13,7 +13,7 @@ import com.endow.booktest.R;
  * Created by endow14 on 2018. 1. 24..
  */
 
-public class Doit_mission_3_Activity extends AppCompatActivity {
+public class Mission_3_Main_Activity extends AppCompatActivity {
 
     ImageView _imageViewUp;
     ImageView _imageViewDown;

@@ -19,7 +19,7 @@ import com.endow.booktest.R;
  * Created by endow14 on 2018. 1. 24..
  */
 
-public class Doit_mission_4_Activity extends AppCompatActivity {
+public class Mission_4_Main_Activity extends AppCompatActivity {
 
     EditText _editText;
     TextView _textView;
@@ -92,7 +92,7 @@ public class Doit_mission_4_Activity extends AppCompatActivity {
 
     public void onSendClick(View view){
 
-        Toast.makeText(Doit_mission_4_Activity.this, _editText.getText().toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(Mission_4_Main_Activity.this, _editText.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 
     public void onExitClick(View view){
