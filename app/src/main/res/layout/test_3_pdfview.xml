@@ -5,16 +5,18 @@
               android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/pdfview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
-        android:text="tel:010-1000-1000"/>
+        android:hint="PDF 파일명을 입력하세요."/>
 
     <Button
-        android:id="@+id/btn_test3_callintent"
+        android:id="@+id/button24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="otherClick"
-        android:text="전화걸기"/>
+        android:onClick="onTest"
+        android:text="열기"/>
+
+
 </LinearLayout>
