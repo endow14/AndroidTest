@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/doit_test_4_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="top"
+        android:background="@null"
+        android:layout_above="@+id/doit_test_4_testview"
+        android:inputType="textMultiLine"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/doit_test_4_testview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/doit_test_4_btn_ly"
+        android:textColor="#ffff0000"
+        android:text="0 / 80 바이트"/>
+
+    <LinearLayout
+        android:id="@+id/doit_test_4_btn_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSendClick"
+            android:text="전송"/>
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onExitClick"
+            android:text="닫기"/>
+    </LinearLayout>
+</RelativeLayout>
