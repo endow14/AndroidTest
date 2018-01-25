@@ -1,4 +1,4 @@
-package com.endow.booktest;
+package com.endow.booktest.doit.mission_3;
 
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
@@ -7,11 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.endow.booktest.R;
+
 /**
  * Created by endow14 on 2018. 1. 24..
  */
 
-public class Doit_test_3_Activity extends AppCompatActivity {
+public class Doit_mission_3_Activity extends AppCompatActivity {
 
     ImageView _imageViewUp;
     ImageView _imageViewDown;

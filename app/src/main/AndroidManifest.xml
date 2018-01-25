@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Test_3_Sms_Activity">
+        <activity android:name=".doit.mission_5.Doit_mission_5_Activity"
+                  android:launchMode= "singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -24,6 +25,9 @@
             android:label="Sub 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog"/>
         <activity android:name=".Test_3_Parcelable_Sub"/>
+
+        <activity
+            android:name=".doit.mission_5.Doit_mission_5_Sub_Activity"/>
 
         <service
             android:name=".Test_3_SampleService"
